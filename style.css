@@ -1,0 +1,106 @@
+/* image */
+
+.image {
+    width: 100%;
+}
+
+.image_circle {
+    border-radius: 100%;
+}
+
+/* link */
+
+.link {
+    text-decoration: none;
+}
+
+/* page */
+
+.page {
+    max-width: 900px;
+    margin: 0 auto;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 25px;
+    box-sizing: border-box;
+}
+
+/* section */
+
+.section__title {
+    font-size: 24px;
+}
+
+/* hero */
+
+.hero {
+    display: flex;
+    align-items: center;
+}
+
+.hero__text {
+    flex-grow: 1;
+}
+
+.hero__title {
+    font-size: 48px;
+    margin: 0;
+}
+
+.hero__subtitle {
+    font-size: 24px;
+}
+
+.hero__portrait {
+    max-width: 300px;
+}
+
+/* project-list */
+
+.project-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    column-gap: 25px;
+}
+
+.project-list__item {
+    flex-basis: 266px;
+}
+
+/* project */
+
+.project__title {
+    font-weight: normal;
+}
+
+/* job-list */
+
+.job-list {
+    list-style: none;
+    padding: 0;
+}
+
+/* job */
+
+.job__title {
+    font-size: 18px;
+    font-weight: normal;
+}
+
+/* position-list */
+
+.position-list {
+    list-style: none;
+    padding-left: 30px;
+}
+
+/* position */
+
+.position__title {
+    font-size: 16px;
+    font-weight: 700;
+}
