@@ -12,6 +12,37 @@
 
 .link {
     text-decoration: none;
+    color: #3465a4;
+}
+
+.link:hover {
+    color: #729fcf;
+}
+
+.link:visited {
+    color: #75507b;
+}
+
+.link:hover:visited {
+    color: #ad7fa8;
+}
+
+@media (prefers-color-scheme: dark) {
+    .link {
+        color: #729fcf;
+    }
+
+    .link:hover {
+        color: #3465a4;
+    }
+
+    .link:visited {
+        color: #ad7fa8;
+    }
+
+    .link:hover:visited {
+        color: #75507b;
+    }
 }
 
 /* page */
@@ -25,6 +56,15 @@
     gap: 25px;
     padding: 25px;
     box-sizing: border-box;
+    color: #000;
+    background-color: #fff;
+}
+
+@media (prefers-color-scheme: dark) {
+    .page {
+        color: #eeeeec;
+        background-color: #2e3436;
+    }
 }
 
 /* section */
